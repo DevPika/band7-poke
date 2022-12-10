@@ -1,0 +1,20 @@
+{
+  "name": "webpush-poke-server",
+  "version": "1.0.0",
+  "description": "Server to run Poke",
+  "main": "server.js",
+  "scripts": {
+    "clean": "[ -e .data/db.json ] && rm .data/db.json",
+    "start": "node server.js",
+    "start-backup": "npm run clean; node server.js;"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "web-push": "3.4.1",
+    "body-parser": "1.19.0",
+    "express-session": "1.16.2",
+    "lowdb": "1.0.0",
+    "cors": "^2.8.5"
+  },
+  "license": "Apache-2.0"
+}

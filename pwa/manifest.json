@@ -1,0 +1,16 @@
+{
+  "name": "Poke!",
+  "short_name": "Poke!",
+  "description": "Poke your friends and family, right from your browser!",
+  "icons": [
+    {
+      "sizes": "256x256",
+      "type": "image/png",
+      "src": "https://cdn.glitch.global/9cf5e7ce-73a2-465d-9c86-f14880243c04/icon.png?v=1668932705427"
+    }
+  ],
+  "display": "standalone",
+  "background_color": "blue",
+  "theme_color": "lightblue",
+  "start_url": "/index.html"
+}
